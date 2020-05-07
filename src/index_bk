@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './component/Home';
+import Header from './component/Header';
+
+const App = () => {
+    return(
+        <React.Fragment>
+            <Header/>
+            <h1>This is react app</h1>
+            <h2>This from visual path</h2>
+        </React.Fragment>
+    )
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'));
+
+
